@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads and temporary files
+_uploads/
+*.tmp
+
+# Model artifacts (can be regenerated)
+model_artifacts/
+*.pkl
+*.joblib
+
+# Large datasets (optional - uncomment if you don't want to commit)
+# *.csv
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
